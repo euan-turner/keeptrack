@@ -35,4 +35,3 @@ function ProjectList({ projects, onSave }: ProjectListProps) {
 }
 
 export default ProjectList;
-
