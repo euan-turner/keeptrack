@@ -7,22 +7,26 @@ interface ProjectListProps {
   projects: Project[];
   onSave: (project: Project) => void;
 }
-function ProjectList({ projects, onSave }: ProjectListProps){
+
+function ProjectList({ projects, onSave }: ProjectListProps) {
   const [projectBeingEdited, setProjectBeingEdited] = useState({});
+
   const handleEdit = (project: Project) => {
     setProjectBeingEdited(project);
   };
+
   const cancelEditing = () => {
     setProjectBeingEdited({});
   };
+
   return (
-    <div className = "row">
+    <div className="row">
       {projects.map((project) => (
-        <div key = {project.id} className = "cols-sm">
+        <div key={project.id} className="cols-sm">
           {project === projectBeingEdited ? (
-            <ProjectForm  onCancel = {cancelEditing} onSave = {onSave}/>
+            <ProjectForm onSave={onSave} onCancel={cancelEditing} />
           ) : (
-            <ProjectCard project = {project} onEdit = {handleEdit} />
+            <ProjectCard project={project} onEdit={handleEdit} />
           )}
         </div>
       ))}
@@ -31,3 +35,4 @@ function ProjectList({ projects, onSave }: ProjectListProps){
 }
 
 export default ProjectList;
+
