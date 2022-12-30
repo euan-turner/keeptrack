@@ -89,7 +89,14 @@
 
 ---
 
-- [ ] Lab 17: Setup Backend REST API
+- [x] Lab 17: Setup Backend REST API
+- To install REST API server: `npm install json-server@0.16.2`
+- Add `"api": "json-server api/db.json --port 4000"` to package.json scripts
+- Have api directory with db.json in app root directory
+- Use `npm run api` to run api
+
+---
+
 - [ ] Lab 18: HTTP GET
 - [ ] Lab 19: HTTP PUT
 - [ ] Lab 20: Router Basics
