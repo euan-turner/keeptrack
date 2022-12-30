@@ -79,8 +79,16 @@
 
 ---
 
-- [ ] Lab 15: Form Values to State
-- [ ] Lab 16: Form Validation
+- [x] Lab 15: Form Values to State
+
+---
+
+- [x] Lab 16: Form Validation
+- Apply validation rules to form inputs before submission
+- Use div to show error message next to entry
+
+---
+
 - [ ] Lab 17: Setup Backend REST API
 - [ ] Lab 18: HTTP GET
 - [ ] Lab 19: HTTP PUT
