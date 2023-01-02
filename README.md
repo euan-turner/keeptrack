@@ -97,7 +97,13 @@
 
 ---
 
-- [ ] Lab 18: HTTP GET
+- [x] Lab 18: HTTP GET
+- Check for error messages on GET request
+- Convert JSON in db.json to object
+- Use state and hooks to control requests
+
+---
+
 - [ ] Lab 19: HTTP PUT
 - [ ] Lab 20: Router Basics
 - [ ] Lab 21: Route Parameters
