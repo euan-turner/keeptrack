@@ -1,6 +1,6 @@
-import React, { Fragment, useState, useEffect } from 'react';
-import { projectAPI } from './projectAPI';
+import React, { useEffect, useState } from 'react';
 import { Project } from './Project';
+import { projectAPI } from './projectAPI';
 import ProjectList from './ProjectList';
 
 function ProjectsPage() {
@@ -37,21 +37,20 @@ function ProjectsPage() {
     setProjects(updatedProjects);
   };
 
-
   const handleMoreClick = () => {
     setCurrentPage((currentPage) => currentPage + 1);
-  }
+  };
 
   return (
-    <Fragment>
+    <>
       <h1>Projects</h1>
-      
+
       {error && (
         <div className="row">
           <div className="card large error">
             <section>
               <p>
-                <span className="icon-alert inverse"></span>
+                <span className="icon-alert inverse "></span>
                 {error}
               </p>
             </section>
@@ -60,7 +59,7 @@ function ProjectsPage() {
       )}
 
       <ProjectList projects={projects} onSave={saveProject} />
-        
+
       {!loading && !error && (
         <div className="row">
           <div className="col-sm-12">
@@ -72,14 +71,15 @@ function ProjectsPage() {
           </div>
         </div>
       )}
+
       {loading && (
         <div className="center-page">
           <span className="spinner primary"></span>
           <p>Loading...</p>
         </div>
       )}
-    </Fragment>
+    </>
   );
-
 }
+
 export default ProjectsPage;

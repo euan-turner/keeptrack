@@ -1,5 +1,5 @@
 import { Project } from './Project';
-const baseUrl = 'https://euan-turner.github.io/keeptrack';
+const baseUrl = 'http://localhost:4000';
 const url = `${baseUrl}/projects`;
 
 function translateStatusToErrorMessage(status: number) {
