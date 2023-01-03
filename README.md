@@ -104,7 +104,12 @@
 
 ---
 
-- [ ] Lab 19: HTTP PUT
+- [x] Lab 19: HTTP PUT
+- Put data to db.json in similar way to getting
+- Use in save project function in main page
+
+---
+
 - [ ] Lab 20: Router Basics
 - [ ] Lab 21: Route Parameters
 - [ ] Lab 22: Build & Deploy
