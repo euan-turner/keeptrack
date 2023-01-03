@@ -44,7 +44,7 @@
 ---
 
 - [x] Lab 8: More Reusable Components
-- Sub-components should be extraced to be more reusable where appropriate
+- Subcomponents should be extracted to be more reusable where appropriate
 
 ---
 
@@ -93,7 +93,7 @@
 - To install REST API server: `npm install json-server@0.16.2`
 - Add `"api": "json-server api/db.json --port 4000"` to package.json scripts
 - Have api directory with db.json in app root directory
-- Use `npm run api` to run api
+- Use `npm run api` to run api, must be done whenever trying to run on localhost
 
 ---
 
@@ -111,6 +111,11 @@
 ---
 
 - [ ] Lab 20: Router Basics
+- Run `npm install react-router-dom`
+- This provides support for navigation around multiple pages
+
+---
+
 - [ ] Lab 21: Route Parameters
 - [ ] Lab 22: Build & Deploy
 
