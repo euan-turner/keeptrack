@@ -119,7 +119,14 @@
 - [x] Lab 21: Route Parameters
 - Use `<Link>` from react-router-dom to make components hyperlinks
 - Routes must be specified in `<Routes>` in ***app.tsx***
-- [ ] Lab 22: Build & Deploy
+
+---
+
+- [x] Lab 22: Build & Deploy
+- Run `npm install -g serve` to install serve
+- Run `npm run build` to create deployment build
+- Run `serve -s build` to serve a local single page application
+- Look at [Vercel](https://vercel.com/#get-started) for deploying backend pages
 
 ## Redux
 
