@@ -20,7 +20,7 @@
 
 - [x] Lab 3: Styles Using CSS
 - To add mini css: `npm install mini.css@3.0.1`
-- To apply mini css to src\index.css: `@import '../node_modules/mini.css/dist/mini-dark.min.css';`
+- To apply mini css to ***src\index.css***: `@import '../node_modules/mini.css/dist/mini-dark.min.css';`
 
 ---
 
@@ -65,7 +65,7 @@
 
 - [x] Lab 12: Hiding and Showing Components
 - State is used to maintain information about a component over function calls
-- useState({}) returns a [state, setter] list that can be destructured
+- `useState({})` returns a `[state, setter]` list that can be destructured
 - State is local to the function component
 
 ---
@@ -91,32 +91,34 @@
 
 - [x] Lab 17: Setup Backend REST API
 - To install REST API server: `npm install json-server@0.16.2`
-- Add `"api": "json-server api/db.json --port 4000"` to package.json scripts
-- Have api directory with db.json in app root directory
+- Add `"api": "json-server api/db.json --port 4000"` to ***package.json*** scripts
+- Have api directory with ***db.json*** in app root directory
 - Use `npm run api` to run api, must be done whenever trying to run on localhost
 
 ---
 
 - [x] Lab 18: HTTP GET
 - Check for error messages on GET request
-- Convert JSON in db.json to object
+- Convert JSON in ***db.json*** to object
 - Use state and hooks to control requests
 
 ---
 
 - [x] Lab 19: HTTP PUT
-- Put data to db.json in similar way to getting
+- Put data to ***db.json*** in similar way to getting
 - Use in save project function in main page
 
 ---
 
-- [ ] Lab 20: Router Basics
+- [x] Lab 20: Router Basics
 - Run `npm install react-router-dom`
 - This provides support for navigation around multiple pages
 
 ---
 
-- [ ] Lab 21: Route Parameters
+- [x] Lab 21: Route Parameters
+- Use `<Link>` from react-router-dom to make components hyperlinks
+- Routes must be specified in `<Routes>` in ***app.tsx***
 - [ ] Lab 22: Build & Deploy
 
 ## Redux
