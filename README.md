@@ -130,7 +130,12 @@
 
 ## Redux
 
-- [ ] Lab 23: Redux Install
+- [x] Lab 23: Redux Install
+- To install redux, run
+  - `npm install redux react-redux redux-devtools-extension redux-thunk`
+  - `npm install --save-dev @types/react-redux`
+- Create a ***state.ts*** file to setup redux
+- 
 - [ ] Lab 24: Redux Actions & Reducer
 - [ ] Lab 25: Redux with React
 
