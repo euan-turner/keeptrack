@@ -146,7 +146,13 @@
 
 ---
 
-- [ ] Lab 25: Redux with React
+- [x] Lab 25: Redux with React
+- Replace useEffect call with `dispatch(loadProjects())`
+- Remove `saveProject` from `ProjectsPage`, as it's now provided with redux
+- Wrap the page in ***App.tsx*** with a redux Provider
+- Dispatch from the form to save a project
+
+---
 
 Testing
 
