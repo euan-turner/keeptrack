@@ -135,8 +135,17 @@
   - `npm install redux react-redux redux-devtools-extension redux-thunk`
   - `npm install --save-dev @types/react-redux`
 - Create a ***state.ts*** file to setup redux
-- 
-- [ ] Lab 24: Redux Actions & Reducer
+
+---
+
+- [x] Lab 24: Redux Actions & Reducer
+- Define types for each action with the database in ***projectTypes.ts***
+- Dispatch matching type for each action outcome in ***projectActions.ts***
+- Reduce each action to a new state in ***projectReducers.ts***
+- Configure reducer and states in ***state.ts***
+
+---
+
 - [ ] Lab 25: Redux with React
 
 Testing
